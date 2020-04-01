@@ -1,0 +1,44 @@
+{
+    "pages": [
+        "pages/welcom/welcom",
+        "pages/index/index",
+        "pages/index/index-detail/index-detail",
+        "pages/movies/movies",
+        "pages/movies/movie-detail/movie-detail",
+        "pages/movies/more-movie/more-movie"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "borderStyle": "white",
+        "position": "bottom",
+        "selectedColor": "#576b95",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "images/tab/yuedu.png",
+                "selectedIconPath": "images/tab/yuedu_hl.png"
+            },
+            {
+                "pagePath": "pages/movies/movies",
+                "text": "电影",
+                "iconPath": "images/tab/dianying.png",
+                "selectedIconPath": "images/tab/dianying_hl.png"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    },
+    "requiredBackgroundModes": [
+        "audio"
+    ],
+    "debug": false,
+    "sitemapLocation": "sitemap.json"
+}

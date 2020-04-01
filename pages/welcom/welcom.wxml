@@ -1,0 +1,8 @@
+<!--pages/welcom/welcom.wxml-->
+<view class='user-page'>
+    <image class='user-img' src='/images/avatar/1.png'></image>
+    <text class='user-name'>hello,鸭饱饱</text>
+    <view class='user-button' bindtap='onTap'>
+        <text class='moto'>开启小程序之旅</text>
+    </view>
+</view>

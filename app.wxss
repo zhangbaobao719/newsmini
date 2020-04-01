@@ -1,0 +1,14 @@
+/**app.wxss**/
+ @import "./wxParse/wxParse.wxss";
+text{
+    font-family: Microsoft Yahei;
+    font-size: 24rpx;
+    color: #666;
+}
+.wxParse-p{
+  font-size: 28rpx;
+}
+.wxParse-h2{
+  font-size: 25rpx;
+  line-height: 1.5;
+}
